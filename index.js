@@ -10,6 +10,10 @@ randomNumber2=Math.floor((6*randomNumber2)+1);
 var imagenumber="dice"+randomNumber2+".png";
 var randomsource2="images/" + imagenumber;
 image2.setAttribute("src",randomsource2);
+if(randomNumber1===randomNumber2)
+{
+  document.querySelector("h1").innerHTML="game draws";
+}
 if(randomNumber1>randomNumber2)
 {
   document.querySelector("h1").innerHTML="player 1 wins!";
