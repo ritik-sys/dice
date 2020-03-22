@@ -14,7 +14,7 @@ if(randomNumber1===randomNumber2)
 {
   document.querySelector("h1").innerHTML="game draws";
 }
-if(randomNumber1>randomNumber2)
+else if(randomNumber1>randomNumber2)
 {
   document.querySelector("h1").innerHTML="player 1 wins!";
 
